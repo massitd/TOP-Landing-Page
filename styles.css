@@ -110,7 +110,7 @@ a {
             font-weight: 300;
             text-align: center;
             width: 130px;
-            
+            margin-bottom: 50px;
         }
     }
     .i1, .i2, .i3, .i4 {
@@ -122,14 +122,27 @@ a {
 }
 
 .testimonial {
+    display: flex;
+    flex-direction: column;
     background-color: #e5e7eb;
     font-family: "Roboto";
     color: #1F2937;
+    align-items: flex-end;
     
     p {
         font-size: 36px;
         font-style: italic;
         font-weight: 100;
         padding: 150px;
+    }
+    .p1{
+        padding-bottom: 0;
+    }
+    .p2 {
+        font-size: 24px;
+        font-weight: 400;
+        font-style: normal;
+        padding-top: 0px;
+        margin-top: 10px;
     }
 }
